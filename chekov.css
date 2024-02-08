@@ -1,52 +1,56 @@
+/* Speech class for spoken text */
 .speech {
     font-family: cursive;
     font-size: 16px;
-    color: rgb(123, 28, 28);
-  }
-  
-  .direction {
+    color: black;
+}
+
+/* Direction class for non-spoken directions */
+.direction {
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
-    color: rgb(198, 39, 39);
+    color: black;
     background-color: lightgrey;
-  }
-  
-  .direction:hover {
-    color: rgb(126, 126, 71);
-    background-color: lightskyblue; 
-  }
-  
-  .zinaida {
-    color: blue;
+}
+
+/* Hover effect for direction class */
+.direction:hover {
+    color: rgb(10, 87, 47);
+    background-color: rgb(135, 169, 250);
+}
+
+/* Character styles */
+.ZINAIDA {
+    color: rgb(75, 12, 33);
     font-size: 18px;
-  }
-  
-  .martha {
+}
+
+.MARTHA {
+    color: rgb(30, 176, 25);
+    font-size: 18px;
+}
+
+.FIRST_GUEST {
+    color: rgb(11, 152, 28);
+    font-size: 18px;
+}
+
+.KOSICH {
     color: slateblue;
     font-size: 18px;
-  }
-  
-  .first {
-    color: green;
+}
+
+.GEORGE {
+    color: slateblue;
     font-size: 18px;
-  }
-  
-  .kosich {
-    color: red;
-    font-size: 18px;  
-  }
-  
-  .george {
-    color: orange;
+}
+
+.AVDOTIA {
+    color: slateblue;
     font-size: 18px;
-  }
-  
-  .avdotia {
-    color: purple;
+}
+
+.SECOND_GUEST {
+    color: slateblue;
     font-size: 18px;
-  }
-  
-  .second {
-    color: brown;
-    font-size: 18px;
-  }
+}
