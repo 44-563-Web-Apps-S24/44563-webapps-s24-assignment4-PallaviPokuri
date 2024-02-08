@@ -1,56 +1,102 @@
 /* Speech class for spoken text */
 .speech {
-    font-family: cursive;
+    font-family: Arial, sans-serif;
     font-size: 16px;
     color: black;
-}
-
-/* Direction class for non-spoken directions */
-.direction {
-    font-family: "Times New Roman", Times, serif;
+  }
+  
+   .direction {
+    font-family: Times New Roman, serif;
     font-size: 14px;
     color: black;
-    background-color: lightgrey;
-}
+    background-color: #dbe9e9; 
+  }
+  
+   .direction:hover {
+    background-color: #ea8282; 
+    color: white;
+  }
+    /* Character name class styles */
+  .zINAIDA {
+    color: #11cfb3; 
+  }
+    .zINAIDA {
+    color: #d9199c; 
+  }
+    .mARTHA{
+    color: #009933; 
+    }
+  
+  
+    .MRS{
+        color: #009933;
+  }
+  /* Apply styles to the table */
+  .cast-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .cast-table th, .cast-table td {
+    border: 1px solid #171718;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .cast-table th {
+    background-color: #e1dedc;
+    text-align: center; /* Center-align headers */
+  }
+  
+  /* Add stripes to table rows */
+  .cast-table tbody tr:nth-child(even) {
+    background-color: #b9e15b;
+  }
+  
+  /* Apply color styles to specific classes */
+  .character {
+    color:#171718
+  }
+  
+  .actor {
+    color: rgb(96, 11, 241);
+  }
+  
+  .understudy {
+    color: hotpink;
+  }
+  h3:hover{
+    color: orange;
+    border: dotted 2px azure;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
 
-/* Hover effect for direction class */
-.direction:hover {
-    color: rgb(10, 87, 47);
-    background-color: rgb(135, 169, 250);
-}
-
-/* Character styles */
-.ZINAIDA {
-    color: rgb(75, 12, 33);
-    font-size: 18px;
-}
-
-.MARTHA {
-    color: rgb(30, 176, 25);
-    font-size: 18px;
-}
-
-.FIRST_GUEST {
-    color: rgb(11, 152, 28);
-    font-size: 18px;
-}
-
-.KOSICH {
-    color: slateblue;
-    font-size: 18px;
-}
-
-.GEORGE {
-    color: slateblue;
-    font-size: 18px;
-}
-
-.AVDOTIA {
-    color: slateblue;
-    font-size: 18px;
-}
-
-.SECOND_GUEST {
-    color: slateblue;
-    font-size: 18px;
+  body, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the main content */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  nav
+  {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+img{
+    height: 25px;
 }
